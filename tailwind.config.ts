@@ -13,7 +13,7 @@ export default <Partial<Config>>{
             100: "#ffffff",
             200: "#f2f2f2",
             700: "#303030",
-            primary: "#fceb3c",
+            primary: "#ff793f",
           },
         },
       },

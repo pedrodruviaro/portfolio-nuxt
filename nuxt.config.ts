@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/image",
     "nuxt-phosphor-icons",
+    "nuxt-lenis",
   ],
   googleFonts: {
     families: {

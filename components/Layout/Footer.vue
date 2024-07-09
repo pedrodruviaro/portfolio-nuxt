@@ -2,7 +2,6 @@
 import {
   LazyPhosphorIconLinkedinLogo,
   LazyPhosphorIconGithubLogo,
-  componentNames,
 } from "#components"
 const currentYear = computed(() => {
   return new Date().getFullYear()
@@ -11,13 +10,13 @@ const currentYear = computed(() => {
 const socialLinks = [
   {
     component: LazyPhosphorIconLinkedinLogo,
-    link: "#",
+    link: "https://www.linkedin.com/in/pedroruviaro/",
     label: "Linkedin",
   },
   {
     component: LazyPhosphorIconGithubLogo,
-    link: "#",
-    label: "github",
+    link: "https://github.com/pedrodruviaro",
+    label: "Github",
   },
 ]
 </script>
@@ -29,7 +28,7 @@ const socialLinks = [
         &copy; Copyright {{ currentYear }} - pedroruviaro.com.br
       </p>
 
-      <div class="flex items-center gap-2 justify-center">
+      <div class="flex items-center gap-4 justify-center">
         <NuxtLink
           v-for="link in socialLinks"
           :key="link.label"
