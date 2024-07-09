@@ -1,11 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <header>header</header>
-    <main>
+  <BaseContainer class="py-10">
+    <LayoutHeader />
+    <main class="my-10">
       <slot />
     </main>
-    <footer>footer</footer>
-  </div>
+    <LayoutFooter />
+  </BaseContainer>
 </template>
