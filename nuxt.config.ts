@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "nuxt-phosphor-icons",
     "nuxt-lenis",
+    "@nuxtjs/seo",
   ],
   googleFonts: {
     families: {
@@ -18,5 +19,11 @@ export default defineNuxtConfig({
   image: {
     dir: "assets/images",
     provider: "ipx",
+  },
+  site: {
+    url: "https://pedroruviaro.com.br/",
+    name: "Pedro Ruviaro",
+    description: "Desenvolvedor Front End",
+    defaultLocale: "pt-BR",
   },
 })
