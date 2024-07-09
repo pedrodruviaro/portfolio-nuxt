@@ -9,5 +9,6 @@ useSeoMeta({
     <PagesHomeHero />
     <PagesHomeSkills />
     <PagesHomeHistory />
+    <PagesHomeBlog />
   </div>
 </template>

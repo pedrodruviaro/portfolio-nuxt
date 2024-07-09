@@ -5,6 +5,10 @@
     <BaseCard>
       <template #default>
         <div class="grid gap-4">
+          <h1 class="font-bold font-heading text-3xl lg:text-4xl mb-2">
+            Hero Section
+          </h1>
+
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
             numquam sequi aspernatur ullam deleniti illum quisquam laborum alias
@@ -36,7 +40,7 @@
 
       <div class="mt-6 flex gap-2 justify-center items-center text-center">
         <div class="flex justify-center items-center">
-          <PhosphorIconCode size="20" color="#303030" />
+          <PhosphorIconCode size="20" weight="bold" color="#303030" />
         </div>
         <div>
           <p class="text-sm">Front End</p>
@@ -45,7 +49,7 @@
 
       <div class="mt-2 flex gap-2 justify-center items-center text-center">
         <div class="flex justify-center items-center">
-          <PhosphorIconMapPin size="20" color="#303030" />
+          <PhosphorIconMapPin size="20" weight="bold" color="#303030" />
         </div>
         <div>
           <p class="text-sm">RS, Brasil</p>

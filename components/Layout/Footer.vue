@@ -24,21 +24,22 @@ const socialLinks = [
 <template>
   <BaseCard as="footer" shadow>
     <div class="flex items-center flex-wrap gap-2 justify-between">
-      <p class="text-sm opacity-50">
-        &copy; Copyright {{ currentYear }} - pedroruviaro.com.br
-      </p>
-
-      <div class="flex items-center gap-4 justify-center">
+      <div class="flex items-center gap-2 justify-center">
         <NuxtLink
           v-for="link in socialLinks"
           :key="link.label"
           :aria-label="link.label"
           :to="link.link"
           target="_blank"
+          class="p-2 rounded hover:bg-brand-light-200"
         >
-          <Component :is="link.component" :size="32" color="#303030" />
+          <Component :is="link.component" :size="32" color="#ff793f" />
         </NuxtLink>
       </div>
+
+      <p class="text-sm opacity-50">
+        &copy; Copyright {{ currentYear }} - pedroruviaro.com.br
+      </p>
     </div>
   </BaseCard>
 </template>
