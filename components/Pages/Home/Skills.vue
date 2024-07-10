@@ -28,7 +28,7 @@
     </div>
 
     <div class="grid gap-4 md:grid-cols-3">
-      <BaseCard v-for="i in 3" :key="i">
+      <BaseCard v-for="i in 3" :key="i" class="card">
         <div class="grid gap-4">
           <div class="flex justify-center mb-2">
             <PhosphorIconAcorn size="40" color="#ff793f" />
