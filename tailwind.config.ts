@@ -19,4 +19,5 @@ export default <Partial<Config>>{
       },
     },
   },
+  plugins: [require("@tailwindcss/typography")],
 }

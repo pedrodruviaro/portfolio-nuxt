@@ -2,6 +2,10 @@
 useSeoMeta({
   title: "Início",
 })
+
+defineOgImageComponent("Default", {
+  title: "Início",
+})
 </script>
 
 <template>

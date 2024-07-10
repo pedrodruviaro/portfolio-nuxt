@@ -3,6 +3,13 @@ useHead({
   htmlAttrs: {
     lang: "pt-BR",
   },
+  link: [
+    {
+      rel: "icon",
+      type: "image/png",
+      href: "/favicon.png",
+    },
+  ],
 
   titleTemplate: (titleChunk) => {
     return titleChunk ? `${titleChunk} - pedroruviaro` : "pedroruviaro"

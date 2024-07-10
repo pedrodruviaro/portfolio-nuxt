@@ -3,7 +3,9 @@
 <template>
   <BaseCard as="header" shadow>
     <div class="flex flex-wrap justify-between gap-2 items-center">
-      <Logo />
+      <NuxtLink to="/">
+        <Logo />
+      </NuxtLink>
 
       <BaseButton>Contato</BaseButton>
     </div>

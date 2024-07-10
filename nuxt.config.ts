@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "nuxt-phosphor-icons",
     "nuxt-lenis",
     "@nuxtjs/seo",
+    "@nuxt/content",
   ],
   googleFonts: {
     families: {
@@ -25,5 +26,10 @@ export default defineNuxtConfig({
     name: "Pedro Ruviaro",
     description: "Desenvolvedor Front End",
     defaultLocale: "pt-BR",
+  },
+  content: {
+    highlight: {
+      theme: "monokai",
+    },
   },
 })
