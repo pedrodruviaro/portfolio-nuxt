@@ -5,7 +5,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="grid gap-10">
+  <div class="grid gap-10 lg:gap-16">
     <PagesHomeHero />
     <PagesHomeSkills />
     <PagesHomeHistory />

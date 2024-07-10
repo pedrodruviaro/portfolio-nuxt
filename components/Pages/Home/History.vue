@@ -7,6 +7,9 @@
       <div class="grid gap-4">
         <h2 class="font-bold font-heading text-3xl lg:text-4xl mb-2">
           Um pouco de história
+          <span
+            class="inline-block rounded-sm w-2 aspect-square bg-brand-light-primary"
+          ></span>
         </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
