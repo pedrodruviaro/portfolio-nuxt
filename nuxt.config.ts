@@ -26,9 +26,4 @@ export default defineNuxtConfig({
     description: "Desenvolvedor Front End",
     defaultLocale: "pt-BR",
   },
-  content: {
-    highlight: {
-      theme: "monokai",
-    },
-  },
 })
