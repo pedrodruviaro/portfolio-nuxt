@@ -19,7 +19,7 @@ const { data } = await useAsyncData("blog-posts", () =>
     <PagesHomeHistory />
     <PagesHomeBlog />
 
-    <div class="hidden">
+    <div>
       <NuxtLink v-for="post in data" :key="post._id" :to="post._path">
         {{ post.title }}
       </NuxtLink>
