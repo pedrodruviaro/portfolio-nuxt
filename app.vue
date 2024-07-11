@@ -20,6 +20,7 @@ useHead({
 <template>
   <lenis :options="{ syncTouch: false }">
     <NuxtLayout>
+      <NuxtLoadingIndicator :height="4" color="#ff793f" />
       <NuxtPage />
     </NuxtLayout>
   </lenis>

@@ -6,6 +6,11 @@ useSeoMeta({
 defineOgImageComponent("Default", {
   title: "Início",
 })
+
+const { data } = await useAsyncData("blog-posts", () =>
+  queryContent("/blog").sort({ date: -1 }).limit(3).find()
+)
+console.log(data.value)
 </script>
 
 <template>
@@ -14,5 +19,11 @@ defineOgImageComponent("Default", {
     <PagesHomeSkills />
     <PagesHomeHistory />
     <PagesHomeBlog />
+
+    <div class="hidden">
+      <NuxtLink v-for="post in data" :key="post._id" :to="post._path">
+        {{ post.title }}
+      </NuxtLink>
+    </div>
   </div>
 </template>
