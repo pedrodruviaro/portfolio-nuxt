@@ -19,6 +19,7 @@ export default defineNuxtConfig({
   },
   image: {
     dir: "assets/images",
+    provider: "ipx",
   },
   site: {
     url: "https://pedroruviaro.com.br/",
