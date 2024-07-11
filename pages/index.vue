@@ -10,7 +10,6 @@ defineOgImageComponent("Default", {
 const { data } = await useAsyncData("blog-posts", () =>
   queryContent("/blog").sort({ date: -1 }).limit(3).find()
 )
-console.log(data.value)
 </script>
 
 <template>
